@@ -1,0 +1,265 @@
+<?php
+/**
+ * The main template file
+ *
+ * @package AVOW
+ */
+
+get_header();
+?>
+
+<main id="primary" class="site-main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Creating Unforgettable Experiences through Innovative Strategies</h1>
+            <p>AVOW is your premier partner for exceptional event management and cutting-edge digital marketing solutions that elevate brands and create lasting impact.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn">Our Services</a>
+                <a href="#clients" class="btn btn-secondary">Our Clients</a>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About AVOW</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">
+                    AVOW is a trusted partner in event management and digital marketing, helping brands grow through creativity and precision. From ideation to execution, we deliver impactful experiences that connect with audiences and build long-term prestige.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">🎯</div>
+                        <h3>End-to-end event solutions</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📈</div>
+                        <h3>Customized digital strategies</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Strong sponsorship management</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💡</div>
+                        <h3>Creative content development</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎪</div>
+                    <h3>Event Management</h3>
+                    <ul style="text-align: left; list-style-position: inside;">
+                        <li>Planning & logistics</li>
+                        <li>Sponsorship outreach</li>
+                        <li>On-site execution</li>
+                        <li>Social media event coverage</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Digital Marketing</h3>
+                    <ul style="text-align: left; list-style-position: inside;">
+                        <li>Social media strategy</li>
+                        <li>Facebook & Instagram management</li>
+                        <li>Content marketing campaigns</li>
+                        <li>Page & response management</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3>Content Creation</h3>
+                    <ul style="text-align: left; list-style-position: inside;">
+                        <li>Blogs, graphics, videos</li>
+                        <li>Interactive contests</li>
+                        <li>Strategic content presentation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>Sponsorship Management</h3>
+                    <ul style="text-align: left; list-style-position: inside;">
+                        <li>Identifying partners</li>
+                        <li>Seamless integration</li>
+                        <li>Long-term relationship building</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="section" id="clients">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Clients</h2>
+                <p style="color: var(--text-light);">Trusted by industry leaders across diverse sectors</p>
+            </div>
+            <div class="client-logos">
+                <!-- Media Clients -->
+                <div class="client-logo">The Hindu</div>
+                <div class="client-logo">UNMAI Media</div>
+                
+                <!-- Healthcare -->
+                <div class="client-logo">Dr. Mohan's Diabetes</div>
+                
+                <!-- Fashion -->
+                <div class="client-logo">Ramraj Cotton</div>
+                <div class="client-logo">Åkp Sarees</div>
+                
+                <!-- Real Estate -->
+                <div class="client-logo">Appaswamy Real Estates</div>
+                <div class="client-logo">VGN</div>
+                <div class="client-logo">GT Realty</div>
+                
+                <!-- Technology & Education -->
+                <div class="client-logo">Quadra</div>
+                <div class="client-logo">UNS EduTech</div>
+                
+                <!-- Food & Beverages -->
+                <div class="client-logo">Trezee</div>
+                <div class="client-logo">Kaappi Ready</div>
+                <div class="client-logo">The Spot Café</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section" id="events" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notable Events</h2>
+                <p style="color: var(--text-light);">Highlighting our successful projects and campaigns</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image" style="background: #e3f2fd;">🌍</div>
+                    <div class="event-content">
+                        <h3>Reaching Your Roots</h3>
+                        <p>Cultural tourism campaign with Tamil Nadu Government promoting heritage and tourism.</p>
+                        <a href="#" class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background: #f3e5f5;">🎤</div>
+                    <div class="event-content">
+                        <h3>Kalaignar Centenary Conference</h3>
+                        <p>1000+ participants event honoring Karunanidhi's legacy with dignitaries and scholars.</p>
+                        <a href="#" class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background: #e8f5e9;">🏑</div>
+                    <div class="event-content">
+                        <h3>Hero Asian Champions Trophy 2023</h3>
+                        <p>Prestigious hockey event with global outreach and international participation.</p>
+                        <a href="#" class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background: #fff3e0;">🏸</div>
+                    <div class="event-content">
+                        <h3>Corporate Badminton League</h3>
+                        <p>50+ corporates competing in a high-energy sports league promoting fitness and networking.</p>
+                        <a href="#" class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background: #e0f7fa;">🏫</div>
+                    <div class="event-content">
+                        <h3>Tamil Nadu School Hockey League (TSHL)</h3>
+                        <p>Promoting grassroots hockey talent across Tamil Nadu schools.</p>
+                        <a href="#" class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section" id="why-choose">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose AVOW?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✅</div>
+                    <h3>Proven Track Record</h3>
+                    <p>Success across diverse industries with measurable results</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Creativity & Strategy</h3>
+                    <p>Perfect blend of innovative ideas and strategic execution</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Transparent Collaboration</h3>
+                    <p>Open communication and clear processes throughout</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Long-term Prestige</h3>
+                    <p>Focus on building enduring brand value and reputation</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Trusted Growth Partner</h3>
+                    <p>Committed to your success as if it were our own</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" style="background-color: #f0f4f8;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Let's Create Something Unforgettable</h2>
+                <p style="color: var(--text-light);">Work with us to elevate your brand</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to take your brand to the next level? Contact us today!</p>
+                    <div class="contact-details">
+                        <p>📍 26/1, Vallakottai Murugan Street, Keelkattalai, Chennai – 600117</p>
+                        <p>📞 +91 73588 31322 | +91 86670 88876</p>
+                        <p>✉️ avowglobal@gmail.com</p>
+                    </div>
+                    <a href="mailto:avowglobal@gmail.com" class="btn btn-secondary" style="margin-top: 30px;">Send us an Email</a>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="tel" name="phone" placeholder="Your Phone">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<?php
+get_footer();
+?>
